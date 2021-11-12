@@ -245,7 +245,7 @@ var typed = new Typed('.typed', {
 	loop: true,
 	typeSpeed: 100,
     backSpeed: 50,
-	backDelay: 1500,
+	backDelay: 100000000000,
 });
 });
 
