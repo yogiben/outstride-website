@@ -3324,4 +3324,12 @@ input:-internal-autofill-selected {
   max-width: 150px;
 }
 
+#writing {
+  font-size: 1.2em;
+}
+#writing a {
+  color: black;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
