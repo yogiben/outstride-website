@@ -3,11 +3,24 @@
 }
 
 #writing {
-    background-color: green;
     font-size: 1.2em;
 
     a {
         color: black;
         text-decoration: none;
+    }
+}
+
+#testimonial img {
+    max-width: 100px;
+}
+
+#testimonial {
+    button {
+        color: $primary-color;
+    }
+
+    .owl-dots span { 
+        border-color: $primary-color;
     }
 }

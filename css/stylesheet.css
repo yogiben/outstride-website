@@ -3332,4 +3332,15 @@ input:-internal-autofill-selected {
   text-decoration: none;
 }
 
+#testimonial img {
+  max-width: 100px;
+}
+
+#testimonial button {
+  color: #e4534c;
+}
+#testimonial .owl-dots span {
+  border-color: #e4534c;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
