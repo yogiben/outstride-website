@@ -389,7 +389,11 @@ form.on('submit', function (e) {
 
 	console.log(name, companyName, description);
 
+
 	window.open("mailto:hi@outstride.co?subject=Founder%20Coaching:%20" + name + "%20|%20" + companyName + "&body=" + description)
+
+	$('#contact-form').addClass('hidden');
+	$('#success-message').removeClass('hidden');
 
 });
 

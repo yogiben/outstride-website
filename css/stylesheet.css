@@ -3343,4 +3343,12 @@ input:-internal-autofill-selected {
   border-color: #e4534c;
 }
 
+.white-text {
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
