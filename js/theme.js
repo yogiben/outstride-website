@@ -389,7 +389,7 @@ form.on('submit', function (e) {
 
 	console.log(name, companyName, description);
 
-	window.open("mailto:hi@outstride.com?subject=Founder%20Coaching:%20" + name + "%20|%20" + companyName + "&body=" + description)
+	window.open("mailto:hi@outstride.co?subject=Founder%20Coaching:%20" + name + "%20|%20" + companyName + "&body=" + description)
 
 });
 
