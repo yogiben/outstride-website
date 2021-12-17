@@ -3347,6 +3347,10 @@ input:-internal-autofill-selected {
   color: white;
 }
 
+.black-text {
+  color: black;
+}
+
 .hidden {
   visibility: hidden;
 }
