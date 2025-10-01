@@ -161,17 +161,22 @@ export const services: Service[] = [
 
 ## 🚀 Deployment
 
-The site automatically deploys to GitHub Pages when you run:
+The site automatically deploys to GitHub Pages using GitHub Actions:
+
+1. **Push to main branch**: Any push to the `main` branch triggers automatic deployment
+2. **GitHub Actions builds**: The workflow builds the Next.js site and creates static files
+3. **Auto-deploy**: The built files are automatically deployed to GitHub Pages
+
+### Manual Testing (if needed)
+
+If you need to test the build locally:
 
 ```bash
-npm run deploy
+npm run build
+npm run start  # Preview the built site locally
 ```
 
-This will:
-
-1. Build the Next.js app
-2. Export static files to `/out` directory
-3. Deploy to GitHub Pages
+The deployment is handled by the `.github/workflows/deploy.yml` workflow file.
 
 ## 🔧 GitHub Pages Configuration
 
