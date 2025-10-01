@@ -33,7 +33,7 @@ export default function Hero() {
             <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="/outstride-website/images/web-developer.jpg"
+                src="/images/web-developer.jpg"
                 title="I'm Ben"
                 alt="Ben"
               />
@@ -49,5 +49,3 @@ export default function Hero() {
     </section>
   );
 }
-
-
