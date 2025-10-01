@@ -12,7 +12,7 @@ export default function Header() {
         <div className="container position-relative">
           <div className="col-auto col-lg-2 d-inline-flex ps-lg-0">
             <Link className="logo" href="/" title="Ben">
-              <img src="/images/logo.png" alt="Ben" />
+              <img src="/outstride-website/images/logo.png" alt="Ben" />
             </Link>
           </div>
           <div className="col col-lg-8 navbar-accordion px-0">

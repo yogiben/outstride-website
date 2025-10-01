@@ -128,7 +128,7 @@ export default function FAQ() {
               >
                 <img
                   className="img-fluid"
-                  src="/images/workshop.jpeg"
+                  src="/outstride-website/images/workshop.jpeg"
                   title="FAQ"
                   alt="faq"
                 />

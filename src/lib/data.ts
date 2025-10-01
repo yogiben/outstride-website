@@ -13,7 +13,7 @@ export const testimonials: Testimonial[] = [
     name: "Dan",
     role: "CEO & co-founder",
     company: "Lapse",
-    image: "/images/clients/dan-silvertown.jpg",
+    image: "/outstride-website/images/clients/dan-silvertown.jpg",
     quote:
       "Working with Ben has transformed how I lead and make decisions. His coaching gave me clarity, sharpened my focus, and helped me approach challenges with confidence and conviction.",
   },
@@ -22,7 +22,7 @@ export const testimonials: Testimonial[] = [
     name: "Ecem",
     role: "CEO & co-founder",
     company: "TalentGrid.io",
-    image: "/images/testimonial/ecem.jpeg",
+    image: "/outstride-website/images/testimonial/ecem.jpeg",
     quote:
       "Working with Ben has been great. He helps us align on the big stuff and introduced us to some fantastic angels for our seed round.",
   },
@@ -31,7 +31,7 @@ export const testimonials: Testimonial[] = [
     name: "Dafni",
     role: "CEO & co-founder",
     company: "Wonderpath",
-    image: "/images/testimonial/dafni.jpeg",
+    image: "/outstride-website/images/testimonial/dafni.jpeg",
     quote:
       "The team workshops bring a tremendous amount of clarity and alignment. It's too easy to get bogged down in the detail and it's really important to remember to zoom out and look at the bigger picture.",
   },
@@ -40,7 +40,7 @@ export const testimonials: Testimonial[] = [
     name: "Tom",
     role: "CEO & co-founder",
     company: "Trevor.io",
-    image: "/images/testimonial/tom.jpeg",
+    image: "/outstride-website/images/testimonial/tom.jpeg",
     quote:
       "First time fundraising can be pretty daunting! Ben helped demistify the process for us.",
   },
@@ -49,7 +49,7 @@ export const testimonials: Testimonial[] = [
     name: "Courtney",
     role: "CEO & co-founder",
     company: "Paradym",
-    image: "/images/testimonial/courtney.jpeg",
+    image: "/outstride-website/images/testimonial/courtney.jpeg",
     quote:
       "The sessions helped me align the team around a clear strategy and to define the culture that the want to build.",
   },

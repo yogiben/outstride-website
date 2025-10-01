@@ -42,8 +42,14 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css"
         />
-        <link rel="stylesheet" href="/outstride-website/vendor/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/outstride-website/vendor/animate/animate.min.css" />
+        <link
+          rel="stylesheet"
+          href="/outstride-website/vendor/bootstrap/css/bootstrap.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="/outstride-website/vendor/animate/animate.min.css"
+        />
         <link
           rel="stylesheet"
           href="/outstride-website/vendor/owl.carousel/assets/owl.carousel.min.css"
