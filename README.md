@@ -178,6 +178,8 @@ npm run start  # Preview the built site locally
 
 The deployment is handled by the `.github/workflows/deploy.yml` workflow file.
 
+<!-- Trigger fresh deployment -->
+
 ## 🔧 GitHub Pages Configuration
 
 The site is configured to work with GitHub Pages:
