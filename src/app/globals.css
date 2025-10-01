@@ -120,3 +120,31 @@
     transform: translate(24px, 0);
   }
 }
+
+/* Improve scroll performance */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optimize animations for better scroll performance */
+.wow {
+  visibility: hidden;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  .wow {
+    visibility: visible !important;
+    animation: none !important;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

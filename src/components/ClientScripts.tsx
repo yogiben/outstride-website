@@ -81,14 +81,56 @@ export default function ClientScripts() {
       }
     };
 
+    // Initialize smooth scroll
+    const initSmoothScroll = () => {
+      if (typeof window !== "undefined" && (window as any).$) {
+        (window as any).$(".smooth-scroll").on("click", function (this: any, event: Event) {
+          event.preventDefault();
+          const sectionTo = (window as any).$(this).attr("href");
+          if (sectionTo) {
+            (window as any).$("html, body")
+              .stop()
+              .animate(
+                {
+                  scrollTop: (window as any).$(sectionTo).offset().top - 50,
+                },
+                1500,
+                "easeInOutExpo"
+              );
+          }
+        });
+      }
+    };
+
+    // Initialize WOW.js with performance optimizations
+    const initWOW = () => {
+      if (typeof window !== "undefined" && (window as any).WOW) {
+        new (window as any).WOW({
+          boxClass: 'wow',
+          animateClass: 'animated',
+          offset: 0,
+          mobile: true,
+          live: true,
+          callback: function(box: any) {
+            // Optional callback for when animation completes
+          },
+          scrollContainer: null
+        }).init();
+      }
+    };
+
     // Try to initialize immediately
     initTyped();
     initCarousel();
+    initSmoothScroll();
+    initWOW();
 
     // Also try after a short delay to ensure scripts are loaded
     const timer = setTimeout(() => {
       initTyped();
       initCarousel();
+      initSmoothScroll();
+      initWOW();
     }, 1000);
 
     // Cleanup on unmount
