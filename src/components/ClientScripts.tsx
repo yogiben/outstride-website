@@ -100,23 +100,23 @@ export default function ClientScripts() {
 
   return (
     <>
-      <Script src="/vendor/jquery/jquery.min.js" strategy="beforeInteractive" />
+      <Script src="/outstride-website/vendor/jquery/jquery.min.js" strategy="beforeInteractive" />
       <Script
-        src="/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        src="/outstride-website/vendor/bootstrap/js/bootstrap.bundle.min.js"
         strategy="beforeInteractive"
       />
       <Script
-        src="/vendor/jquery.easing/jquery.easing.min.js"
+        src="/outstride-website/vendor/jquery.easing/jquery.easing.min.js"
         strategy="lazyOnload"
       />
-      <Script src="/vendor/wow/wow.min.js" strategy="lazyOnload" />
-      <Script src="/vendor/typed/typed.min.js" strategy="lazyOnload" />
+      <Script src="/outstride-website/vendor/wow/wow.min.js" strategy="lazyOnload" />
+      <Script src="/outstride-website/vendor/typed/typed.min.js" strategy="lazyOnload" />
       <Script
-        src="/vendor/jquery.appear/jquery.appear.min.js"
+        src="/outstride-website/vendor/jquery.appear/jquery.appear.min.js"
         strategy="lazyOnload"
       />
       <Script
-        src="/vendor/owl.carousel/owl.carousel.min.js"
+        src="/outstride-website/vendor/owl.carousel/owl.carousel.min.js"
         strategy="lazyOnload"
       />
     </>

@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/favicon.png" />
+        <link rel="icon" href="/outstride-website/images/favicon.png" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -42,14 +42,14 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css"
         />
-        <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/vendor/animate/animate.min.css" />
+        <link rel="stylesheet" href="/outstride-website/vendor/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/outstride-website/vendor/animate/animate.min.css" />
         <link
           rel="stylesheet"
-          href="/vendor/owl.carousel/assets/owl.carousel.min.css"
+          href="/outstride-website/vendor/owl.carousel/assets/owl.carousel.min.css"
         />
-        <link rel="stylesheet" href="/css/stylesheet.css" />
-        <link rel="stylesheet" href="/css/custom.css" />
+        <link rel="stylesheet" href="/outstride-website/css/stylesheet.css" />
+        <link rel="stylesheet" href="/outstride-website/css/custom.css" />
       </head>
       <body>
         {children}
