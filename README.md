@@ -246,3 +246,4 @@ The site is ready for analytics integration:
 ## 📄 License
 
 ISC License - see package.json for details
+# Force fresh deployment to clear redirect cache
