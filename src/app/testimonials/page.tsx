@@ -13,11 +13,11 @@ export default function TestimonialsPage() {
     <div id="main-wrapper">
       <Header />
       <main id="content" role="main">
-        {/* Page Header */}
+        {/* Testimonials */}
         <section className="section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8 mx-auto text-center">
+              <div className="col-lg-8 mx-auto text-center mb-5">
                 <h1 className="text-10 fw-600 mb-4 wow fadeInUp">
                   Testimonials
                 </h1>
@@ -26,12 +26,6 @@ export default function TestimonialsPage() {
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Testimonials */}
-        <section className="section">
-          <div className="container">
             <div className="row">
               <TestimonialsList />
             </div>
