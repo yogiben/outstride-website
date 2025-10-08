@@ -131,7 +131,7 @@ export const testimonials: Testimonial[] = [
     name: "Raphael",
     role: "CEO & co-founder",
     company: "Hyphen",
-    image: "/images/clients/ben-silvertown.jpg",
+    image: "/images/clients/hrag-sarkissian.jpg",
     quote:
       "Ben helps me focus on what's important and cut through the noise. Every session leaves me with clarity and the confidence to make better decisions.",
     createdAt: "2025-10-07T14:16:08.382Z",
@@ -141,7 +141,7 @@ export const testimonials: Testimonial[] = [
     name: "John",
     role: "CEO & co-founder",
     company: "Inephany",
-    image: "/images/clients/ben-silvertown.jpg",
+    image: "/images/clients/isaac-simons.jpg",
     quote:
       "Ben has a unique ability to draw out the core issue and keep me focused on what really matters. His coaching has made me a sharper, more intentional leader.",
     createdAt: "2025-06-30T10:00:31.746Z",
@@ -151,7 +151,7 @@ export const testimonials: Testimonial[] = [
     name: "Anne-Marie",
     role: "CEO & co-founder",
     company: "Yaruku",
-    image: "/images/clients/ben-silvertown.jpg",
+    image: "/images/clients/natasha-jones.jpg",
     quote:
       "Ben offered invaluable insights from his own experience that illuminated blind spots I hadn't seen. His guidance brought clarity and confidence to a key decision I'd been struggling with.",
     createdAt: "2024-12-19T13:32:39.557Z",
@@ -161,7 +161,7 @@ export const testimonials: Testimonial[] = [
     name: "Dominic",
     role: "CEO & co-founder",
     company: "Fast Soil Intelligence",
-    image: "/images/clients/ben-silvertown.jpg",
+    image: "/images/clients/jack-herbkersman.jpg",
     quote:
       "Through working with Ben, I've gained clarity and decisiveness in my leadership. His insight, support and structure helped me navigate the the curve balls that get thrown your way with startups. He's an awesome person and a total pro.",
     createdAt: "2022-11-15T18:37:00.000Z",
@@ -171,7 +171,7 @@ export const testimonials: Testimonial[] = [
     name: "Erdem",
     role: "CEO & co-founder",
     company: "Flowla",
-    image: "/images/clients/ben-silvertown.jpg",
+    image: "/images/clients/marcel-schmid.jpg",
     quote:
       "Ben challenges me to focus on what really moves the needle. His coaching has made me a more decisive and confident leader.",
     createdAt: "2025-10-07T14:21:33.575Z",
