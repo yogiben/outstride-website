@@ -6,6 +6,7 @@ export interface Testimonial {
   image: string;
   quote: string;
   isInvestor?: boolean;
+  createdAt?: string;
 }
 
 export const testimonials: Testimonial[] = [
@@ -17,6 +18,7 @@ export const testimonials: Testimonial[] = [
     image: "/images/clients/dan-silvertown.jpg",
     quote:
       "Working with Ben has transformed how I lead and make decisions. His coaching gave me clarity, sharpened my focus, and helped me approach challenges with confidence and conviction.",
+    createdAt: "2023-11-22T12:30:35.889Z",
   },
   {
     id: 2,
@@ -62,6 +64,7 @@ export const testimonials: Testimonial[] = [
     image: "/images/clients/maria-fazio.jpg",
     quote:
       "Working with Ben has helped me grow into a stronger, more confident leader. Our coaching sessions give me the clarity and accountability to lead with greater impact",
+    createdAt: "2024-03-01T14:40:56.748Z",
   },
   {
     id: 7,
@@ -82,6 +85,26 @@ export const testimonials: Testimonial[] = [
     quote:
       "Ben's workshop on 'Building the Perfect Co-Founder Relationship' was a standout session for Antler UK. He blends hands-on startup experience with practical, easy-to-apply tools, our founders left motivated, aligned, and better equipped to navigate their co-founder partnerships.",
     isInvestor: true,
+  },
+  {
+    id: 9,
+    name: "Sajeev",
+    role: "CEO & co-founder",
+    company: "Medify",
+    image: "/images/clients/sajeev-shanmuganandarajah.jpg",
+    quote:
+      "Working with Ben Jones has sharpened my leadership and decision-making. His tailored strategy sessions with my leadership team have been transformative, aligning us around clear priorities and practical actions.",
+    createdAt: "2023-10-11T15:48:55.702Z",
+  },
+  {
+    id: 10,
+    name: "Ed",
+    role: "CEO & co-founder",
+    company: "Quetzal",
+    image: "/images/clients/ed-bramwell.jpg",
+    quote:
+      "Ben is an incredible coach, able to draw upon his real experience on any aspect of startup life. More importantly, he helped me focus on what really mattered, both for my company and my personal life.",
+    createdAt: "2023-09-07T12:00:41.506Z",
   },
 ];
 
