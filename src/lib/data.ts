@@ -126,6 +126,56 @@ export const testimonials: Testimonial[] = [
       "Ben has been an incredible thought partner, helping me reflect and find clarity in complex situations. His blend of deep listening and practical founder experience has been an important element in my decision-making and leadership approach.",
     createdAt: "2025-04-22T14:31:12.838Z",
   },
+  {
+    id: 13,
+    name: "Raphael",
+    role: "CEO & co-founder",
+    company: "Hyphen",
+    image: "/images/clients/raphael-eder.jpg",
+    quote:
+      "Ben helps me focus on what's important and cut through the noise. Every session leaves me with clarity and the confidence to make better decisions.",
+    createdAt: "2025-10-07T14:16:08.382Z",
+  },
+  {
+    id: 14,
+    name: "John",
+    role: "CEO & co-founder",
+    company: "Inephany",
+    image: "/images/clients/john-torr.jpg",
+    quote:
+      "Ben has a unique ability to draw out the core issue and keep me focused on what really matters. His coaching has made me a sharper, more intentional leader.",
+    createdAt: "2025-06-30T10:00:31.746Z",
+  },
+  {
+    id: 15,
+    name: "Anne-Marie",
+    role: "CEO & co-founder",
+    company: "Yaruku",
+    image: "/images/clients/anne-marie-king.jpg",
+    quote:
+      "Ben offered invaluable insights from his own experience that illuminated blind spots I hadn't seen. His guidance brought clarity and confidence to a key decision I'd been struggling with.",
+    createdAt: "2024-12-19T13:32:39.557Z",
+  },
+  {
+    id: 16,
+    name: "Dominic",
+    role: "CEO & co-founder",
+    company: "Fast Soil Intelligence",
+    image: "/images/clients/dominic-reardon.jpg",
+    quote:
+      "Through working with Ben, I've gained clarity and decisiveness in my leadership. His insight, support and structure helped me navigate the the curve balls that get thrown your way with startups. He's an awesome person and a total pro.",
+    createdAt: "2022-11-15T18:37:00.000Z",
+  },
+  {
+    id: 17,
+    name: "Erdem",
+    role: "CEO & co-founder",
+    company: "Flowla",
+    image: "/images/clients/erdem-gelal.jpg",
+    quote:
+      "Ben challenges me to focus on what really moves the needle. His coaching has made me a more decisive and confident leader.",
+    createdAt: "2025-10-07T14:21:33.575Z",
+  },
 ];
 
 export interface Service {
