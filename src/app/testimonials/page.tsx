@@ -14,18 +14,18 @@ export default function TestimonialsPage() {
       <Header />
       <main id="content" role="main">
         {/* Page Header */}
-        <section className="section bg-primary">
+        <section className="section">
           <div className="container">
             <div className="row">
               <div className="col-lg-8 mx-auto text-center">
-                <h1 className="text-10 fw-600 text-white mb-4 wow fadeInUp">
-                  What Founders Say
+                <h1 className="text-10 fw-600 mb-4 wow fadeInUp">
+                  Testimonials
                 </h1>
                 <p
-                  className="text-5 text-white wow fadeInUp"
+                  className="text-5 wow fadeInUp"
                   data-wow-delay="0.2s"
                 >
-                  Real testimonials from founders I've worked with
+                  Real testimonials from founders and investors I've worked with
                 </p>
               </div>
             </div>
