@@ -84,21 +84,24 @@ export default function ClientScripts() {
     // Initialize smooth scroll
     const initSmoothScroll = () => {
       if (typeof window !== "undefined" && (window as any).$) {
-        (window as any).$(".smooth-scroll").on("click", function (this: any, event: Event) {
-          event.preventDefault();
-          const sectionTo = (window as any).$(this).attr("href");
-          if (sectionTo) {
-            (window as any).$("html, body")
-              .stop()
-              .animate(
-                {
-                  scrollTop: (window as any).$(sectionTo).offset().top - 50,
-                },
-                1500,
-                "easeInOutExpo"
-              );
-          }
-        });
+        (window as any)
+          .$(".smooth-scroll")
+          .on("click", function (this: any, event: Event) {
+            event.preventDefault();
+            const sectionTo = (window as any).$(this).attr("href");
+            if (sectionTo) {
+              (window as any)
+                .$("html, body")
+                .stop()
+                .animate(
+                  {
+                    scrollTop: (window as any).$(sectionTo).offset().top - 50,
+                  },
+                  1500,
+                  "easeInOutExpo"
+                );
+            }
+          });
       }
     };
 
@@ -106,15 +109,15 @@ export default function ClientScripts() {
     const initWOW = () => {
       if (typeof window !== "undefined" && (window as any).WOW) {
         new (window as any).WOW({
-          boxClass: 'wow',
-          animateClass: 'animated',
+          boxClass: "wow",
+          animateClass: "animated",
           offset: 0,
           mobile: true,
           live: true,
-          callback: function(box: any) {
+          callback: function (box: any) {
             // Optional callback for when animation completes
           },
-          scrollContainer: null
+          scrollContainer: null,
         }).init();
       }
     };
@@ -142,10 +145,7 @@ export default function ClientScripts() {
 
   return (
     <>
-      <Script
-        src="/vendor/jquery/jquery.min.js"
-        strategy="beforeInteractive"
-      />
+      <Script src="/vendor/jquery/jquery.min.js" strategy="beforeInteractive" />
       <Script
         src="/vendor/bootstrap/js/bootstrap.bundle.min.js"
         strategy="beforeInteractive"
@@ -154,14 +154,8 @@ export default function ClientScripts() {
         src="/vendor/jquery.easing/jquery.easing.min.js"
         strategy="lazyOnload"
       />
-      <Script
-        src="/vendor/wow/wow.min.js"
-        strategy="lazyOnload"
-      />
-      <Script
-        src="/vendor/typed/typed.min.js"
-        strategy="lazyOnload"
-      />
+      <Script src="/vendor/wow/wow.min.js" strategy="lazyOnload" />
+      <Script src="/vendor/typed/typed.min.js" strategy="lazyOnload" />
       <Script
         src="/vendor/jquery.appear/jquery.appear.min.js"
         strategy="lazyOnload"

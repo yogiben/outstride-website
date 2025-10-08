@@ -48,7 +48,7 @@ export default function TestimonialsList() {
       </div>
 
       {/* Investors Section */}
-      {false && investorTestimonials.length > 0 && (
+      {investorTestimonials.length > 0 && (
         <div className="mt-5 pt-5 border-top">
           <h3 className="text-6 fw-600 text-center mb-5">What Investors Say</h3>
           {investorTestimonials.map((testimonial, index) =>

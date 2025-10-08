@@ -5,6 +5,7 @@ export interface Testimonial {
   company: string;
   image: string;
   quote: string;
+  isInvestor?: boolean;
 }
 
 export const testimonials: Testimonial[] = [
@@ -52,6 +53,35 @@ export const testimonials: Testimonial[] = [
     image: "/images/testimonial/courtney.jpeg",
     quote:
       "The sessions helped me align the team around a clear strategy and to define the culture that the want to build.",
+  },
+  {
+    id: 6,
+    name: "Maria",
+    role: "Product Lead",
+    company: "Lapse",
+    image: "/images/clients/maria-fazio.jpg",
+    quote:
+      "Working with Ben has helped me grow into a stronger, more confident leader. Our coaching sessions give me the clarity and accountability to lead with greater impact",
+  },
+  {
+    id: 7,
+    name: "Senam",
+    role: "Head of Operations and Community",
+    company: "Intel Ignite",
+    image: "/images/clients/senam.jpeg",
+    quote:
+      "Ben's workshop with our Intel Ignite founders was exceptional. He has a rare ability to simplify complex leadership challenges and spark real strategic clarity. Our founders left with sharper focus, practical tools, and a renewed sense of confidence in their decision-making",
+    isInvestor: true,
+  },
+  {
+    id: 8,
+    name: "Adam",
+    role: "Partner",
+    company: "Antler UK",
+    image: "/images/clients/adam-french.jpeg",
+    quote:
+      "Ben's workshop on 'Building the Perfect Co-Founder Relationship' was a standout session for Antler UK. He blends hands-on startup experience with practical, easy-to-apply tools, our founders left motivated, aligned, and better equipped to navigate their co-founder partnerships.",
+    isInvestor: true,
   },
 ];
 

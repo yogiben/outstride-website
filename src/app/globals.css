@@ -136,12 +136,12 @@ html {
   html {
     scroll-behavior: auto;
   }
-  
+
   .wow {
     visibility: visible !important;
     animation: none !important;
   }
-  
+
   * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
