@@ -21,10 +21,7 @@ export default function TestimonialsPage() {
                 <h1 className="text-10 fw-600 mb-4 wow fadeInUp">
                   Testimonials
                 </h1>
-                <p
-                  className="text-5 wow fadeInUp"
-                  data-wow-delay="0.2s"
-                >
+                <p className="text-5 wow fadeInUp" data-wow-delay="0.2s">
                   Real testimonials from founders and investors I've worked with
                 </p>
               </div>
@@ -58,5 +55,3 @@ export default function TestimonialsPage() {
     </div>
   );
 }
-
-

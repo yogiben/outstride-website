@@ -106,6 +106,26 @@ export const testimonials: Testimonial[] = [
       "Ben is an incredible coach, able to draw upon his real experience on any aspect of startup life. More importantly, he helped me focus on what really mattered, both for my company and my personal life.",
     createdAt: "2023-09-07T12:00:41.506Z",
   },
+  {
+    id: 11,
+    name: "Maria",
+    role: "CEO & co-founder",
+    company: "Abatable",
+    image: "/images/clients/maria-filmanovic.jpg",
+    quote:
+      "Working with Ben was an incredibly positive experience. His coaching gave me clarity and confidence in my leadership, and the frameworks he shared are still tools I lean on every day—both in our company and in my own life.",
+    createdAt: "2023-03-09T17:32:46.605Z",
+  },
+  {
+    id: 12,
+    name: "Rui",
+    role: "VP Product",
+    company: "automata.tech",
+    image: "/images/clients/rui-campos.jpg",
+    quote:
+      "Ben has been an incredible thought partner, helping me reflect and find clarity in complex situations. His blend of deep listening and practical founder experience has been an important element in my decision-making and leadership approach.",
+    createdAt: "2025-04-22T14:31:12.838Z",
+  },
 ];
 
 export interface Service {
